@@ -1,0 +1,90 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://survivalbond/deelnemers/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="survivalrun">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:short" name="runid"/>
+                <xs:element type="xs:string" name="naam"/>
+                <xs:element type="xs:string" name="rundatum"/>
+                <xs:element type="xs:string" name="rundatumlaat"/>
+                <xs:element type="xs:float" name="versie"/>
+                <xs:element name="cats">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cat" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:short" name="catid" use="optional"/>
+                                            <xs:attribute type="xs:string" name="catcode" use="optional"/>
+                                            <xs:attribute type="xs:string" name="omschrijving" use="optional"/>
+                                            <xs:attribute type="xs:byte" name="startvan" use="optional"/>
+                                            <xs:attribute type="xs:byte" name="starttm" use="optional"/>
+                                            <xs:attribute type="xs:string" name="isgroep" use="optional"/>
+                                            <xs:attribute type="xs:string" name="shirt_kleur" use="optional"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="deelnemers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="deelnemer" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="catcode" use="optional"/>
+                                            <xs:attribute type="xs:string" name="naam" use="optional"/>
+                                            <xs:attribute type="xs:string" name="woonplaats" use="optional"/>
+                                            <xs:attribute type="xs:byte" name="startnummer" use="optional"/>
+                                            <xs:attribute type="xs:byte" name="estafettenummer" use="optional"/>
+                                            <xs:attribute type="xs:byte" name="lidnr" use="optional"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="startgroepen">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="startgroep">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="catcode"/>
+                                            <xs:attribute type="xs:byte" name="startvan"/>
+                                            <xs:attribute type="xs:byte" name="starttm"/>
+                                            <xs:attribute type="xs:string" name="starttijd"/>
+                                            <xs:attribute type="xs:string" name="omschrijving"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="groepnamen">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="groepnaam" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="catcode" use="optional"/>
+                                            <xs:attribute type="xs:string" name="teamnaam" use="optional"/>
+                                            <xs:attribute type="xs:byte" name="startnummer" use="optional"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

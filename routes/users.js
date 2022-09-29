@@ -7,7 +7,7 @@ router.post('/', function(req, res, next) {
   let xml = req.body;
   console.log(xml);
 
-  fs.writeFile('test.xml', xml, function(err) {
+  fs.writeFile('rpc.xml', xml, function(err) {
     if (err) {
       console.log(err);
     } else {

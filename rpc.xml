@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+    <methodName>sbn_startlijst_upload_ws</methodName>
+    <params>
+        <param>
+            <value>UserName</value>
+        </param>
+        <param>
+            <value>Password</value>
+        </param>
+        <param>
+            <value>2021</value>
+        </param>
+        <param>
+            <value>
+                Zie survivalrun.xml. N.b. de "&lt;" en "&gt;" tags dienen te worden gebruikt, anders wordt het geparsed als XML in plaats van een string.
+            </value>
+        </param>
+    </params>
+</methodCall>
