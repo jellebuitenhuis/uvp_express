@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+    <methodName>sbn_startlijst_upload_ws</methodName>
+    <params>
+        <param>
+            <value>UserName</value>
+        </param>
+        <param>
+            <value>Password</value>
+        </param>
+        <param>
+            <value>2021</value>
+        </param>
+        <param>
+            <value>&lt;survivalrun xmlns="http://survivalbond/deelnemers/xsd"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://survivalbond/deelnemers/xsd ../schemas/inschrijving.xsd"&gt;
+                &lt;runid&gt;469&lt;/runid&gt;
+                &lt;naam&gt;Tartaros Campus Challenge Enschede&lt;/naam&gt;
+                &lt;rundatum&gt;12-12-2021&lt;/rundatum&gt;
+                &lt;rundatumlaat&gt;01-12-2021&lt;/rundatumlaat&gt;
+                &lt;versie&gt;1.1&lt;/versie&gt;
+                &lt;cats&gt;
+                &lt;cat catid="1320" catcode="BSR" omschrijving="Basis Survivalrun (BSR)" startvan="0" starttm="0"
+                isgroep="N" shirt_kleur="Legergroen" /&gt;
+                &lt;cat catid="1354" catcode="SPON6" omschrijving="Demcon 6km" startvan="0" starttm="0" isgroep="J"
+                shirt_kleur="Turqoise" /&gt;
+                &lt;cat catid="1355" catcode="SPON9" omschrijving="Demcon 9km" startvan="0" starttm="0" isgroep="J"
+                shirt_kleur="Coral" /&gt;
+                &lt;cat catid="940" catcode="9kmL-Groep" omschrijving="9km Licht Groep 2-5 deelnemers" startvan="0"
+                starttm="0" isgroep="J" shirt_kleur="Coral" /&gt;
+                &lt;cat catid="941" catcode="9kmL-Solo" omschrijving="9km Licht Individueel" startvan="0" starttm="0"
+                isgroep="N" shirt_kleur="Coral" /&gt;
+                &lt;cat catid="1106" catcode="9kmZ-Solo" omschrijving="9km Zwaar Individueel" startvan="1" starttm="10"
+                isgroep="N" shirt_kleur="Lichtgroen" /&gt;
+                &lt;cat catid="920" catcode="6km-Solo" omschrijving="6km Individueel" startvan="1" starttm="50"
+                isgroep="N" shirt_kleur="Turqoise" /&gt;
+                &lt;cat catid="921" catcode="6km-Groep" omschrijving="6km Groep 2-10 deelnemers" startvan="51"
+                starttm="100" isgroep="J" shirt_kleur="Turqoise" /&gt;
+                &lt;/cats&gt;
+                &lt;deelnemers&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Wolvega" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Geesteren" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Zuidhorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Overdinkel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Rossum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Dinxperlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Marienvelde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Deventer" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Ureterp" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Bilthoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Assen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Een" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="De Lutte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Wierden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Zieuwent" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Renkum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Renkum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Diepenheim" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Elburg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwijndrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Havelte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leeuwarden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Vriezenveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Gaanderen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leiden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Doetinchem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Marienvelde"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Rolde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Glanerbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Winterswijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Goor" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Nuenen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Winterswijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwaag" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Driebergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Driebergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Driebergen-Rijsenburg"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Almelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Groenlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Almelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Deventer" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Dieren" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Peize" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ottersum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lunteren" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Sumar" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Sumar" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zuidhorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Havelte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Siebengewald" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Havelte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Siebengewald" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Heeten" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Culemborg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="vriezenveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="DELFT" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Mantinge" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Almelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="NEEDE" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Kortenhoef" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Amsterdam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Surhuisterveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groenlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="reestdal outdoor balkbrug"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leeuwarden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Capelle aan den IJssel"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="RIJSWIJK ZH" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beusichem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Driel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Huissen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Andelst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Staphorst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Staphorst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Slijk Ewijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Staphorst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Huissen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Rouveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Wijchen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Zieuwent" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Diepenveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groesbeek" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Staphorst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boskovice" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boskovice" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Doetinchem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="de steeg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eefde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Wognum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="De Steeg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oosterbeek" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Raalte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON9" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hijken" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON9" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hijken" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Staphorst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="De klinge" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Soest" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Schagen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON9" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Bad Bentheim" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Linde (Reestdal Outdoor)"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON9" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Schagen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="ENSCHEDE" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Huizen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Amersfoort" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="RUURLO" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="BEESD" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="LEMELERVELD" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Beekbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Heiloo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Deventer" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Schagen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Lattrop-Breklenkamp" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ruinen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON9" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Schagen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Schalkwijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON9" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="HENGELO OV" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Linde (Reestdal Outdoor)"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hellendoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Zetten" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Amsterdam - RUIG" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Oosterhout" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Driel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Mook" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Westervoort" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Driel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Gendringen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Staphorst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Soest" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beuningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beilen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="GEESTEREN" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="GEESTEREN Gld" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Doetinchem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Heerenveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Zetten" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borne" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Havelte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Helmond" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="DELFGAUW" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Marienvelde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Udenhout" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leeuwarden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veenendaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Tubbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Dokkum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Kekerdom" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Haren" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Udenhout" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Edam" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Bornerbroek" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Haren" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Twello" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Twello" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Apeldoorn" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Ommen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Wageningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Bakkeveen"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oosterhout (GLD)" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Overdinkel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Gendringen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Capelle aan den IJssel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zieuwent" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hasselt" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Kampen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Brummen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Spaarndam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Dieren" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Twello" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Ureterp" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Heerde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="De Knipe" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Eibergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lochem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="kampen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Diepenheim" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwaag" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Vught" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Doetinchem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Norg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Assendelft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Balkbrug" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Drachten" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Franeker" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Markelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leeuwarden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Beltrum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Usselo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Erm" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ruinen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="st joost" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON6" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="wezup" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Elst" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Muntendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Beckum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Raalte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Oudega" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Teteringen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Overdinker" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON6" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON6" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Houten" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Dinxperlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON6" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0" estafettenummer="0"
+                lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="arnhem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Velp" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Oldenzaal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Weerselo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Heino" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="SPON6" naam="Voornaam Achternaam" woonplaats="Rossum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="De Meern" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Deventer" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Vollenhove" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Doetinchem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nieuwleusen"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leeuwarden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Westerbork" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Heerhugowaard" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Wageningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Marienvelde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hardenberg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Bekveld" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Westervoort" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Vriezenveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ahaus" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ahaus" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Dinxperlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ahaus" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="De Knipe" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Vorden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ruurlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Stokkum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Rijswijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Stokkum" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Ahaus" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Tubbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Den Haag" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Amsterdam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groesbeek" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Dinxperlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Winterswijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Winterswijk-Woold"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eursinge" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Meppel" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Terborg" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Dinxperlo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Westerbork" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Havelte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Almelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Gieten" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Havelte" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Den Ham" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Boekelo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Ambt delden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Ahaus" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Ahaus" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hooglanderveen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lelystad"
+                startnummer="0" estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Lunteren" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Zwolle" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="RIJSWIJK ZH" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Wesepe" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Den Ham" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Ommen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Haaksbergen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Wageningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="BSR" naam="Voornaam Achternaam" woonplaats="Nijverdal" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Hengelo ov" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Leeuwarden" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="WIJCHEN" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Rotterdam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Rotterdam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="lichtenvoorde" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Kootstertille" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Koekange" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Neede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Wijnegem" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Noordijk" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Nijmegen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Groep" naam="Voornaam Achternaam" woonplaats="Losser" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Borculo" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Utrecht" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmL-Solo" naam="Voornaam Achternaam" woonplaats="Veendam" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Eindhoven" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Groep" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Groningen" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Enschede" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="OLDENZAAL" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="6km-Solo" naam="Voornaam Achternaam" woonplaats="Mantinge" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Noordwijkerhout" startnummer="0"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;deelnemer catcode="9kmZ-Solo" naam="Voornaam Achternaam" woonplaats="Delft" startnummer="1"
+                estafettenummer="0" lidnr="0" /&gt;
+                &lt;/deelnemers&gt;
+                &lt;startgroepen&gt;
+                &lt;startgroep catcode="9kmZ-Solo" startvan="1" starttm="10" starttijd="10:00"
+                omschrijving="9kmZ-Solo-1" /&gt;
+                &lt;/startgroepen&gt;
+                &lt;groepnamen&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="(Toekomstig) Söwent" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="All Terrain" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Allterrainbow" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Beard Bokma" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Bende van de Berends" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Bestuur 3/4" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Boekelopers 4T" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Boekelopers Next Gen" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Boekelopers bikkels" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Boekelopers1" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Bollen dran" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="De Achterhoekers" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De Eibergse Gang" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="De Glinda’s " startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De Kletskoppen" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="De Leentjes" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De TRAGTERTJES" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De Velthuisjes" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De drie biggetjes" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De drie musketiers" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="De twee musketiers" startnummer="0" /&gt;
+                &lt;groepnaam catcode="SPON9" teamnaam="Demcon 1" startnummer="0" /&gt;
+                &lt;groepnaam catcode="SPON6" teamnaam="Demcon 2" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Diesels plusminus" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Dran" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Dran neede" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Drek trekkers" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Espresso" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="FEL naar de BEL" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Forza Havelte" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="GirlPower" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Hout op Maat" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="KAR" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Langendijk United" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Lekker met de meiden" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="M&amp;amp;amp;M" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Meme Team" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Picobello b.v." startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Pre-U" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="R + C" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Reestdal Outdoor 1" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Reestdal Outdoor K&amp;amp;amp;N" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Roessink" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Running FiaFia" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Running cliff Monkey" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Rutbeek survival 1" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Rutbeeksurvival 2" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Rutbeeksurvival 3" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="SSH Girls" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Sail Sail BRRRR" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Scholten" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Skoapkes (DSR)" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Snaakn Hilly" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Spek and beans" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Survival Arnhem 1" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Survival Arnhem 2" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Survival Arnhem 3" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Survival Arnhem 4" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Survival Arnhem 5" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Survivalteam.nl" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Team Franke" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Team Hulzink" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Team Maling " startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="The Master Climbers OCP" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Vriezen" startnummer="0" /&gt;
+                &lt;groepnaam catcode="6km-Groep" teamnaam="Vyletnici" startnummer="0" /&gt;
+                &lt;groepnaam catcode="9kmL-Groep" teamnaam="Zozijn" startnummer="0" /&gt;
+                &lt;/groepnamen&gt;
+                &lt;/survivalrun&gt;
+
+            </value>
+        </param>
+    </params>
+</methodCall>
